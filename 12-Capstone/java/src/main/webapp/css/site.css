@@ -1,0 +1,641 @@
+.test {
+	color: red;
+	font-size: 35px;
+}
+
+.homePageBG {
+	/* Set rules to fill background */
+	min-height: 100%;
+	min-width: 1024px;
+	/* Set up proportionate scaling */
+	width: 100%;
+	height: auto;
+	/* Set up positioning */
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.header {
+	text-align: center;
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 20px;
+	word-spacing: 75px;
+	font-weight: bold;
+	background-color: #d59758;
+	padding: 20px;
+	margin: -8px;
+}
+
+.homePageName {
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 80px;
+	text-align: center;
+	color: green;
+	text-shadow: 2.5px 2.5px #a5cd39;
+	background-size: 900px;
+	margin: -8px;
+	padding: 20px;
+	background-color: #d59758;
+}
+
+#treeImgs {
+	margin: auto;
+	padding: 7px;
+}
+
+#treeImgsDetails {
+	margin: auto;
+	padding: 7px;
+}
+
+
+li {
+	text-align: center;
+	list-style: none;
+	display: inline;
+	word-spacing: 10px;
+	border-style: ridge;
+	border-color: green;
+	padding: 5px;
+	background-color: #a5cd39;
+}
+
+a {
+	color: green;
+	text-decoration: none;
+	background-color: #a5cd39;
+}
+
+li a:hover {
+	color: white;
+	padding: 5px 0px;
+}
+
+.homeParkDetails {
+	background-color: #a5cd39;
+	opacity: 0.85;
+	border: 5px solid transparent;
+	border-color: #a5cd39;
+	border-style: outset;
+	border-radius: 20px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+}
+
+.favoriteParkNameVotes {
+	background-color: #a5cd39;
+	opacity: 0.85;
+	border: 5px solid transparent;
+	border-color: #a5cd39;
+	border-style: outset;
+	border-radius: 20px;
+	font-family: 'Actor', sans-serif;
+	text-align: center;
+	font-weight: bold;
+	font-size: 27px;
+	display: block;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+	padding: 20px;
+	align-items: center;
+	justify-content: center;
+	margin-left: 25%;
+	margin-right: 25%;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	margin-top: 0.5%;
+}
+
+.detailsPageInfo1 {
+	background-color: #a5cd39;
+	opacity: 0.85;
+	border: 5px solid transparent;
+	border-color: #a5cd39;
+	border-style: outset;
+	border-radius: 20px;
+	font-family: 'Actor', sans-serif;
+	display: block;
+	text-align: center;
+	padding: 1px 20px;
+	font-weight: bold;
+	font-size: 25px;
+	margin-top: 0.5%;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+	margin-left: 20%;
+	margin-right: 20%;
+	word-spacing: 2px;
+}
+
+.detailsPageInfo2 {
+	background-color: #a5cd39;
+	opacity: 0.85;
+	border: 5px solid transparent;
+	border-color: #a5cd39;
+	border-style: outset;
+	border-radius: 20px;
+	font-family: 'Actor', sans-serif;
+	display: inline-block;
+	text-align: left;
+	padding: 1px 20px;
+	font-weight: bold;
+	font-size: 30px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+	letter-spacing: 2px;
+	word-spacing: 2px;
+}
+
+.tempDisplayButton {
+	background-color: #a5cd39;
+	opacity: 0.85;
+	border: 5px solid transparent;
+	border-color: #a5cd39;
+	border-style: outset;
+	border-radius: 20px;
+	font-family: 'Actor', sans-serif;
+	display: block;
+	text-align: center;
+	padding: 1px 20px;
+	font-weight: bold;
+	font-size: 25px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+	margin-left: 25%;
+	margin-right: 25%;
+	letter-spacing: 2.3px;
+}
+
+.detailsQuote {
+	background-color: #a5cd39;
+	opacity: 0.85;
+	border: 5px solid transparent;
+	border-color: #a5cd39;
+	border-style: outset;
+	border-radius: 20px;
+	font-family: 'Shadows Into Light Two', cursive;
+	display: block;
+	text-align: center;
+	padding: 1px 20px;
+	font-weight: bold;
+	font-size: 30px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+	margin-top: 0.5%;
+	letter-spacing: 2px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.parkName {
+	text-align: center;
+	font-family: 'Actor', sans-serif;
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 35px;
+}
+
+.parkState {
+	text-align: center;
+	font-family: 'Actor', sans-serif;
+	font-size: 32px;
+}
+
+.parkDescription {
+	font-family: 'Actor', sans-serif;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+	text-indent: 50px;
+	text-align: justify;
+	padding-bottom: 4%;
+	line-height: 43px;
+	font-weight: bold;
+	margin: 1.5%;
+	font-size: 27px;
+}
+
+.parkImages {
+	display: block;
+	filter: saturate(175%);
+	margin-left: auto;
+	margin-right: auto;
+	border: 20px solid transparent;
+	border-color: green;
+	border-style: ridge;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.detailsParkImages {
+	display: block;
+	filter: saturate(175%);
+	margin-left: auto;
+	margin-right: auto;
+	border: 20px solid transparent;
+	border-color: green;
+	border-style: ridge;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-right: auto;
+}
+
+#surveyParkSelect {
+	display: inline-block;
+	position: relative;
+	padding: 12px 1px;
+	border-radius: 20px;
+	margin-top: -0.3%;
+}
+
+.surveyParkList {
+	font-family: 'Actor', sans-serif;
+	font-size: 35px;
+	background-color: #a5cd39;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+}
+
+#surveyEmailInputMain {
+	display: table-cell;
+	position: relative;
+	background-color: #a5cd39;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+	padding: 9px 9px;
+	border-radius: 20px;
+}
+
+.surveyEmailInput {
+	font-family: 'Actor', sans-serif;
+	font-size: 35px;
+}
+
+#email {
+	font-family: 'Actor', sans-serif;
+	font-size: 20px;
+	padding: 4px;
+}
+
+#surveyStateSelect {
+	font-family: 'Actor', sans-serif;
+	display: table-cell;
+	position: relative;
+	border-radius: 20px;
+	background-color: #a5cd39;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+}
+
+.surveyStateList {
+	font-family: 'Actor', sans-serif;
+	font-size: 35px;
+	background-color: #a5cd39;
+}
+
+#activity {
+	background-color: #a5cd39;
+	border-radius: 60px;
+}
+
+.surveyActivityList {
+	font-family: 'Actor', sans-serif;
+	font-size: 35px;
+	background-color: #a5cd39;
+	text-align: center;
+	padding: 20px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+	border-radius: 60px;
+	word-spacing: 11px;
+	margin-left: 12%;
+	margin-right: 12%;
+	letter-spacing: 2px;
+}
+
+.surveySubmitButton {
+	background-color: #a5cd39;
+	padding: 20px 40px;
+	border-radius: 20px;
+	font-size: 200%;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+	width: 235px;
+	height: 95px;
+	transition: width 1s;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	display: block;
+	text-align: center;
+}
+
+.surveySubmitButton:hover {
+	color: white;
+	width: 335px;
+}
+
+.forecast {
+	background-color: #a5cd39;
+	opacity: 0.85;
+	border: 5px solid transparent;
+	border-color: #a5cd39;
+	border-style: outset;
+	border-radius: 20px;
+	font-family: 'Actor', sans-serif;
+	justify-content: center;
+	text-align: center;
+	padding: 1px 20px;
+	font-weight: bold;
+	font-size: 30px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+	letter-spacing: 2px;
+	word-spacing: 2px;
+}
+
+
+
+
+
+
+/* TREE IMGS */
+
+
+.tree1 {
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	right: 190px;
+	top: -7px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	margin: auto;
+}
+
+.tree1Copy {
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	left: 190px;
+	top: -7px;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+	margin: auto;
+}
+
+.tree1Survey {
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	right: 328px;
+	top: -7px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	margin: auto;
+}
+
+.tree1CopySurvey {
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	left: 328px;
+	top: -7px;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+	margin: auto;
+}
+
+.tree1Details {
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	right: 340px;
+	top: -7px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	margin: auto;
+}
+
+.tree1CopyDetails {
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	left: 340px;
+	top: -7px;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+	margin: auto;
+}
+
+.tree2 {
+	position: absolute;
+	height: 175px;
+	width: 175px;
+	right: 100px;
+	top: 7px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	margin: auto;
+}
+
+.tree2Copy {
+	position: absolute;
+	height: 175px;
+	width: 175px;
+	left: 100px;
+	top: 7px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	margin: auto;
+}
+
+.tree2Survey {
+	position: absolute;
+	height: 175px;
+	width: 175px;
+	right: 220px;
+	top: 7px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	margin: auto;
+}
+
+.tree2CopySurvey {
+	position: absolute;
+	height: 175px;
+	width: 175px;
+	left: 220px;
+	top: 7px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	margin: auto;
+}
+
+.tree2Details {
+	position: absolute;
+	height: 175px;
+	width: 175px;
+	right: 230px;
+	top: 7px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	margin: auto;
+}
+
+.tree2CopyDetails {
+	position: absolute;
+	height: 175px;
+	width: 175px;
+	left: 230px;
+	top: 7px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	margin: auto;
+}
+
+.tree3 {
+	position: absolute;
+	height: 125px;
+	width: 125px;
+	right: 37px;
+	top: 45px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	margin: auto;
+}
+
+.tree3Copy {
+	position: absolute;
+	height: 125px;
+	width: 125px;
+	left: 37px;
+	top: 45px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	margin: auto;
+}
+
+.tree3Survey {
+	position: absolute;
+	height: 125px;
+	width: 125px;
+	right: 137px;
+	top: 45px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	margin: auto;
+}
+
+.tree3CopySurvey {
+	position: absolute;
+	height: 125px;
+	width: 125px;
+	left: 137px;
+	top: 45px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	margin: auto;
+}
+
+.tree3Details {
+	position: absolute;
+	height: 125px;
+	width: 125px;
+	right: 147px;
+	top: 45px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	margin: auto;
+}
+
+.tree3CopyDetails {
+	position: absolute;
+	height: 125px;
+	width: 125px;
+	left: 147px;
+	top: 45px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	margin: auto;
+}
+
+.tree4 {
+	position: absolute;
+	height: 75px;
+	width: 75px;
+	right: -4px;
+	top: 84px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	margin: auto;
+}
+
+.tree4Copy {
+	position: absolute;
+	height: 75px;
+	width: 75px;
+	left: -4px;
+	top: 84px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	margin: auto;
+}
+
+.tree4Survey {
+	position: absolute;
+	height: 75px;
+	width: 75px;
+	right: 70px;
+	top: 84px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	margin: auto;
+}
+
+.tree4CopySurvey {
+	position: absolute;
+	height: 75px;
+	width: 75px;
+	left: 70px;
+	top: 84px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	margin: auto;
+}
+
+.tree4Details {
+	position: absolute;
+	height: 75px;
+	width: 75px;
+	right: 80px;
+	top: 84px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	margin: auto;
+}
+
+.tree4CopyDetails {
+	position: absolute;
+	height: 75px;
+	width: 75px;
+	left: 80px;
+	top: 84px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	margin: auto;
+}
